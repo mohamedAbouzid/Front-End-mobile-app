@@ -1,0 +1,369 @@
+body
+{
+    
+    font-family: sans-serif;
+    font-size: 12px;
+    overflow-x: hidden;
+    
+}
+.overlay{
+    padding: 70px 10px;;
+    background-color: rgba(0,0,0,0.7)
+}
+h1
+{
+    font-weight: bold
+}
+/*start navbar*/
+
+.navbar
+{
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 1px 0;
+    font-weight: bold;
+}
+li a
+{
+   transition: all .5s ease-in-out;  
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+li a:hover
+{
+    color: floralwhite !important;
+}
+
+
+/*.navbar li.getbtn
+{
+    border-radius:  30px;
+    border: 2px solid #000;
+    margin: 0px 15px 0px 10px;   
+    font-weight: bold;
+    color: white;
+    margin-top: 2px;*/
+}
+.navbar .getbtn i
+{
+    font-size: 20px;
+    color: white;
+    
+}
+/*end navbar*/
+/*start home*/
+section#home
+{
+    background-image: url(../images/slide2.jpg);    
+   
+   
+    color: white;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+    
+}
+section#home h1
+{
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 150px;
+}
+section#home p
+{
+   font-size: 16px; 
+}
+section#home a
+{
+    color: white;
+    background-color: #535353;
+    border-radius: 40px;
+    padding: 5px 30px;
+    margin: 10px;
+    font-size: 20px;
+    transition: all .5s ease-in-out;
+}
+section#home a:hover
+{
+    background-color: #2D2D2D;
+}
+section#home img
+{
+    height: 100%;
+    width: 100%
+}
+/*end home*/
+/*start features*/
+section#features
+{
+    text-align: center;
+    color: #232323;
+    background-color: #F4F4F4;
+    padding: 50px 10px 40px;
+}
+section#features h1
+{
+    font-size: 50px;
+    color: #232323;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+section#features div
+{
+    overflow: hidden
+}
+section#features h5
+{
+    color: #C1C1C1;
+    font-style: italic;
+}
+section#features img
+{
+    max-width: 100%;
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+    border-radius: 10px
+}
+
+section#features p
+{
+    font-size: 16px;
+    color: #5E5E5E;
+}
+.thumbnail
+{
+    margin: auto
+}
+/*end features*/
+/*start tut*/
+section#tutorial
+{
+    padding: 150px 10px 50px;
+    text-align: right
+}
+section#tutorial h1
+{
+    font-weight: bold;
+}
+section#tutorial a
+{
+    color: white;
+    background-color: #535353;
+    border-radius: 40px;
+    padding: 5px 30px;
+    margin: 10px ;
+    font-size: 20px;
+    transition: all .5s ease-in-out;
+}
+section#tutorial a:hover
+{
+    background-color: #2D2D2D;
+}
+/*end tut*/
+/*start whyus*/
+section#whyus
+{
+    padding: 50px 10px 50px;
+    text-align: center;
+    background-color: #F4F4F4;
+    color: #232323;
+}
+section#whyus h5
+{
+    color: #C1C1C1;
+    font-style: italic;
+}
+section#whyus p
+{
+    font-size: 16px;
+    color: #232323
+}
+.icondiv
+{
+    border-radius: 50%;
+    padding: 30px ;
+    background-color: white;
+    width: 120px;
+    margin: auto
+}
+.icondiv i
+{
+    font-size: 50px
+}
+/*end why us*/
+/*start about us*/
+section#aboutus
+{
+    text-align: center;
+    color: ghostwhite;
+   
+    background-image: url(../images/slide3.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+section#aboutus h1
+{
+    font-weight: bold;
+    font-size: 50px
+}
+section#aboutus h3
+{
+    color: ghostwhite;
+}
+section#aboutus .users
+{
+    background-color: #F4F4F4;
+    border: 2px solid ;
+    border-color: #5C574D;
+    margin-top: 50px;
+    padding: 30px 10px;
+    border-radius: 15px;
+    
+    
+}
+section#aboutus p
+{
+    font-size: 16px;
+    line-height: 30px;
+    color: #6F6F6F;
+    margin-bottom: 50px;
+    
+}
+section#aboutus .userround
+{
+    
+    margin: 20px
+}
+section#aboutus .userround img
+{
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    width: 40%
+    
+}
+/*end about us*/
+/*start pricing*/
+section#pricing
+{
+  padding: 100px 10px 70px  
+}
+section#pricing .row .col-md-4
+{
+    
+    padding: 15px;
+    border: 15px solid white;
+    margin-top: 50px;
+    border-radius: 10px
+}
+section#pricing .row .col-md-4 div
+{
+    background-color: #F4F4F4;
+    padding: 20px;
+    margin-bottom: 5px
+}
+section#pricing .row .col-md-4 h5
+{
+    color: #969696;
+    font-style: italic;
+}
+section#prcing h5,h3
+{
+    color: #969696;
+    font-style: italic;
+}
+section#pricing .row .col-md-4 h4
+{
+    font-weight: bold;
+    margin-top:20px
+}
+section#pricing .row .col-md-4 hr
+{
+   background-color:  #535353;
+    width: 70%;
+    height: 1px;
+    opacity: .3
+}
+section#pricing .row .col-md-4 sup
+{
+    font-weight: bold
+}
+section#pricing .row .col-md-4 span
+{
+    font-weight: bold;
+    font-size: 50px
+}
+section#pricing .row .col-md-4 ul
+{
+    list-style: none;
+    text-align: center;
+    margin-right: 30px
+}
+section#pricing .row .col-md-4 a.btn
+{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    transition: all .5s ease-in-out;
+    margin-top: 30px;
+    border-radius: 30px;
+    margin-bottom: 40px
+}
+section#pricing .row .col-md-4 a.btn:hover
+{
+    color: white;
+    background-color: #535353
+}
+/*start download*/
+
+section#download
+{
+    background-image: url(../images/slide1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+    margin-bottom: 30px
+}
+section#download h1
+{
+    color: ghostwhite
+}
+section#download a
+{
+    color: white;
+    background-color: #535353;
+    border-radius: 40px;
+    padding: 5px 30px;
+    font-size: 20px;
+    transition: all .5s ease-in-out;
+    display: inline-block;
+    margin: 10px 10px;
+    width: 160px
+}
+section#download a:hover
+{
+    background-color: #2D2D2D;
+}
+/*media*/
+@media screen and (max-width:500px){
+    iframe
+    {
+        width: 200px
+    }
+    .mediah1
+    {
+        font-size: 3em !important;
+        text-align: center
+    }
+}
